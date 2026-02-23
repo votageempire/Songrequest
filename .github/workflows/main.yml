@@ -1,0 +1,13 @@
+songrequest/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      ← GitHub Actions for auto-deploy
+├── src/
+│   ├── components/         ← Navigation, AuthModal, UI
+│   ├── sections/           ← Hero, HowItWorks, Featured, etc.
+│   ├── hooks/              ← useAuth, useSongRequests
+│   ├── lib/                ← storage utilities
+│   └── types/              ← TypeScript types
+├── vite.config.ts          ← Updated for GitHub Pages
+├── package.json
+└── ...
